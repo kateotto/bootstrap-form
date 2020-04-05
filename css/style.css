@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 20px; }
+
+.list ul li {
+  list-style-type: disc; }
+
+.btn {
+  margin: 20px 0; }
+  @media (max-width: 576px) {
+    .btn {
+      position: sticky;
+      bottom: 0;
+      margin: 75px 0 0 0; } }
